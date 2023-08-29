@@ -44,6 +44,7 @@ func minSubArrayLen2(target int, nums []int) int {
 			}
 			sum -= nums[i] // 左边界向右移动，所以要减去左边界的值
 			i++
+
 		}
 	}
 
